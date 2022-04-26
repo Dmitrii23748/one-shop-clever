@@ -1,0 +1,120 @@
+.subscribe {
+  background: linear-gradient(180deg, #f3f2f2 0%, #dcdbdb 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 59px 0;
+  width: 100%;
+  /* position: relative; */
+}
+
+.subscribe-position {
+  position: relative;
+}
+
+.subscribe-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 96px 96px 96px;
+}
+
+.subscribe-block__text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin-bottom: 16px;
+}
+
+.subscribe-block__title {
+  max-width: 306px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.subscribe-block__title-span {
+  margin-left: 8px;
+  color: #e91e63;
+}
+.subscribe-block__input {
+  width: 100%;
+  max-width: 340px;
+  padding: 22px 10px 24px 10px;
+  background-color: #f8f8f8;
+  outline: none;
+  border: none;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.subscribe-block__input::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #121212;
+  opacity: 0.4;
+  text-align: center;
+}
+
+.subscribe-block__btn {
+  width: 340px;
+  padding: 23px 0;
+  background-color: #121212;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.subscribe__women {
+  position: absolute;
+  bottom: -96px;
+  left: -49%;
+}
+.subscribe__men {
+  position: absolute;
+  bottom: -47px;
+  right: -39%;
+}
+
+@media screen and (max-width: 1165px) {
+  .subscribe-block__btn {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .subscribe__men,
+  .subscribe__women {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .subscribe-block {
+    padding: 30px;
+  }
+  .subscribe-block__title {
+    max-width: 206px;
+    font-size: 22px;
+  }
+  .subscribe-block__input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .subscribe-block__btn {
+    font-size: 12px;
+  }
+}

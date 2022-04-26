@@ -1,0 +1,41 @@
+.show-count__filters {
+  padding-bottom: 30px;
+}
+.mens-filter__show {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mens-show__count-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 30px;
+}
+
+.mens-show__block {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.mens-show__list {
+  display: flex;
+  align-items: center;
+}
+
+.mens-show__title,
+.mens-show__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+.mens-show__title {
+  margin-right: 5px;
+}
+.mens-show__item {
+  margin-right: 8px;
+}

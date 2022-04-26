@@ -1,0 +1,13 @@
+.cart-page__price-btn {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.9;
+    background-color: #121212;
+    padding: 16px 24px;
+    margin-right: 30px;
+    cursor: pointer;
+  }

@@ -1,0 +1,41 @@
+.show-count__filters {
+  padding-bottom: 30px;
+}
+.womens-filter__show {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.womens-show__count-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 30px;
+}
+
+.womens-show__block {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.womens-show__list {
+  display: flex;
+  align-items: center;
+}
+
+.womens-show__title,
+.womens-show__item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+.womens-show__title {
+  margin-right: 5px;
+}
+.womens-show__item {
+  margin-right: 8px;
+}

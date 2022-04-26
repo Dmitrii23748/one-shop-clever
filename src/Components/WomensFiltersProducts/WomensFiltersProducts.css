@@ -1,0 +1,24 @@
+.womens-img__block-prod {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 851px)  {
+    .womens-title {
+      margin-bottom: 20px;
+    }
+    .womens-category__item {
+      margin-left: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px)  {
+    .womens-img__block {
+      justify-content: space-evenly;
+    }
+  }
+  
+  

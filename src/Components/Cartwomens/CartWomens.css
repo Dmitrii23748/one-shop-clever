@@ -1,0 +1,62 @@
+.women-cart {
+  margin-bottom: 30px;
+  position: relative;
+  margin: 0 2px 30px 2px;
+}
+
+.womens-cart__img {
+  margin-bottom: 16px;
+  width: 255px;
+  height: 318px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.womens-cart__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.6;
+  margin-bottom: 9px;
+  color: #121212;
+}
+
+.womens-cart__stars {
+  display: flex;
+  justify-content: space-between;
+}
+.womens-cart__stars-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 5px;
+  color: #121212;
+}
+
+.womens-cart__stars-sale {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  text-decoration: line-through;
+  color: #121212;
+  opacity: 0.4;
+}
+
+.womens-percent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 53px;
+  height: 31px;
+  background-color: #e91e63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.womens-percent__text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: #ffffff;
+}

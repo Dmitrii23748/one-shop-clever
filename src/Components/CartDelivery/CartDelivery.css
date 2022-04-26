@@ -1,0 +1,141 @@
+.delivery-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.delivery__radio-btn {
+  margin-bottom: 32px;
+}
+
+.delivery__radio-btn-item {
+  padding: 14px 0;
+}
+.title-radio {
+  position: relative;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.real-radio {
+  opacity: 0;
+}
+
+.castom-radio {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: -16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+}
+
+.castom-radio::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 4px;
+  transform: scale(0);
+  background-color: #121212;
+  border-radius: 50%;
+}
+
+.real-radio:checked + .castom-radio::after {
+  transform: scale(1);
+}
+
+.real-radio:checked + .castom-radio {
+  border: 1px solid #121212;
+}
+
+.delivery__radio_up,
+.delivery__radio_down {
+  border-bottom: 2px solid #f8f8f8;
+  border-top: 2px solid #f8f8f8;
+}
+
+.delivery-info__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.delivery-info__title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.delivery-info__input {
+  padding: 15px 16px;
+  background: #f8f8f8;
+  border: none;
+  outline: none;
+}
+.delivery-info__input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #9c9c9c;
+}
+.delivery-info__input:focus::placeholder {
+  color: #121212;
+}
+.delivery-info__input-adress {
+  margin-bottom: 8px;
+}
+
+.input-house {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delivery-info__input-house,
+.delivery-info__input-apartment {
+  width: 166px;
+}
+
+.checkbox-iagree {
+    margin-top: 23px;
+    margin-bottom: 32px;
+}
+
+.real-checkbox-delivery {
+  opacity: 0;
+}
+
+.title-checkbox {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.castom-checkbox-delivery {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -2px;
+  left: -15px;
+  border: 1px solid #e6e6e6;
+}
+.castom-checkbox-delivery::after {
+    position: absolute;
+    content: url('../../img/filter-icons/icons8.svg');
+    top: -7px;
+    left: -1px;
+    transform: scale(0);
+}
+
+.real-checkbox-delivery:checked + .castom-checkbox-delivery::after {
+    transform: scale(1);
+}

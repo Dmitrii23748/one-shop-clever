@@ -1,0 +1,43 @@
+.section-mens-btn {
+  margin-top: 45px;
+}
+
+.mens-block__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+  .mens-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  
+  .mens-category__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .mens-category__item {
+    margin-left: 32px;
+  }
+  
+  .mens-category__link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  .mens-category__link:hover {
+    font-weight: 500;
+    opacity: 1;
+    cursor: pointer;
+  }

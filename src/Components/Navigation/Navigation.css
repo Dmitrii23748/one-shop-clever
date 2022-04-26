@@ -1,0 +1,271 @@
+.nav-up-block {
+  padding: 5px 0;
+  background-color: #121212;
+  color: #fff;
+}
+
+.nav-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-up__place-block {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-up__item {
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}
+.nav-up__item_local {
+  margin-right: 56px;
+}
+.nav-up__img {
+  margin-right: 10px;
+}
+
+.number-phone-clock {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  opacity: 0.8;
+}
+
+.local-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.03em;
+  opacity: 0.8;
+}
+
+.nav-up__links-block {
+  display: flex;
+  align-items: center;
+  width: 95px;
+}
+
+.nav-up__item-link {
+  margin-left: 10px;
+}
+
+.nav-down-block {
+  padding: 16px 0;
+  border-bottom: 2px solid #f8f8f8;
+}
+
+.nav-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-down__logo-links {
+  display: flex;
+  align-items: center;
+}
+.nav-down__title-link {
+  margin-right: 79px;
+}
+.nav-down__logo {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #121212;
+}
+
+.nav-down__list-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-down__item {
+  margin: 0 16px;
+}
+.nav-down__item:first-child {
+  margin-left: 0;
+}
+.nav-down__item:last-child {
+  margin-right: 0;
+}
+
+.nav-down__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #121212;
+}
+
+.nav-down__link.active {
+  font-weight: 600;
+}
+
+.nav-down__icons-list {
+  display: flex;
+  align-items: center;
+  width: 182px;
+}
+
+.nav-down__icons-item {
+  margin-left: 31px;
+  cursor: pointer;
+}
+.nav-down__icons-item:first-child {
+  margin-left: 15px;
+}
+
+.nav-down__icons_shop {
+  position: relative;
+}
+
+.icons-shop__span {
+  position: absolute;
+  display: inline-block;
+  top: -7px;
+  right: -8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #121212;
+  text-align: center;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.navbar__burger {
+  position: fixed;
+  top: 35px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  color: inherit;
+  display: none;
+  z-index: 3;
+}
+
+@media screen and (max-width: 999px) {
+  .nav-down__icons {
+    margin-right: 60px;
+  }
+  .nav-down__list-links {
+    flex-direction: column;
+    position: fixed;
+    width: 0;
+    height: 500px;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    background-color: rgba(210, 199, 216, 0.9);
+    z-index: 3;
+    overflow: auto;
+    transition: all 0.8s ease-out;
+  }
+  .nav-down__list-links.show-nav {
+    width: 100%;
+    right: 0;
+  }
+  .nav-down__item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .nav-down__item:first-child {
+    margin-top: 150px;
+  }
+  .nav-down__link {
+    color: #080808;
+    font-size: 19px;
+  }
+  .navbar__burger {
+    display: block;
+  }
+  .navbar__burger:hover {
+    cursor: pointer;
+  }
+  .burger-bar,
+  .burger-bar::before,
+  .burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: rgb(7, 7, 7);
+    z-index: 3;
+    transition: all 0.4s ease-in-out;
+  }
+  .burger-bar::before,
+  .burger-bar::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+  .burger-bar::before {
+    transform: translateY(-12px);
+  }
+  .burger-bar::after {
+    transform: translateY(12px);
+  }
+  .show-nav .burger-bar {
+    width: 0;
+    background: transparent;
+  }
+  .show-nav .burger-bar::before {
+    transform: rotate(45deg);
+  }
+  .show-nav .burger-bar::after {
+    transform: rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .navbar__burger {
+    top: 45px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .navbar__burger {
+    top: 65px;
+  }
+}
+@media screen and (max-width: 463px) {
+  .navbar__burger {
+    top: 85px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav-down__title-link {
+    margin-right: 0;
+  }
+  .nav-down__icons-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .nav-up__item {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .nav-down__icons-list {
+    justify-content: space-between;
+    width: 130px;
+  }
+  .nav-down__icons-item {
+    margin-left: 0;
+  }
+}

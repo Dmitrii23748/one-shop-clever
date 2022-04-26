@@ -1,0 +1,90 @@
+.mens-header__title-div {
+  background-color: #f8f8f8;
+}
+
+.mens-header__title {
+  padding-top: 8px;
+  padding-bottom: 22px;
+}
+
+.mens-header__title-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mens-header__title-item {
+  display: flex;
+  align-items: center;
+}
+
+.mens-header__title-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  opacity: 0.6;
+}
+
+.mens-header__men-link {
+  opacity: 1;
+}
+.mens-header__home-link,
+.mens-header__title-arrow {
+  margin-right: 7px;
+}
+.mens-header__share-link {
+  margin-left: 9px;
+}
+
+.mens-header__title-block {
+  margin-top: 18px;
+  text-align: center;
+}
+.mens-header__title-men {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.mens-header__filters-block {
+    padding-top: 38px;
+}
+
+.mens-header__filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4px;
+  margin-bottom: 34px;
+}
+
+.mens-header__filters-item {
+  display: flex;
+  align-items: center;
+}
+
+.mens-header__filters-filter {
+  margin-right: 15px;
+}
+
+.mens-header__filters-squaresFilter {
+  margin-left: 30px;
+}
+.mens-header__filters-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.mens-header__filters-burgerFilter,
+.mens-header__filters-filter,
+.mens-header__filters-squaresFilter {
+  cursor: pointer;
+}
+
